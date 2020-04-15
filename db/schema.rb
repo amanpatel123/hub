@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20200412195845) do
+ActiveRecord::Schema.define(version: 20200309204634) do
 
   create_table "discord_users", force: :cascade do |t|
     t.integer "discord_uid", limit: 8
