@@ -1,5 +1,5 @@
 
-<h1><%= react_component('Hello', {name: "News"}) %> </h1>
+<h1>News</h1>
 <hr>
 
 <% if @posts.present? %>
@@ -23,3 +23,5 @@
    <%= link_to "New Post", new_post_path, class: "btn btn-success" %>
 <% end %>
 <br><br> 
+
+<%= react_component('index.TimeTable') %>
